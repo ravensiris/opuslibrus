@@ -1,0 +1,1078 @@
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='https')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='http')
+NameError: name 'url_for' is not defined
+Exception on /api/ [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 374, in render_doc
+    return apidoc.ui_for(self)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\apidoc.py", line 36, in ui_for
+    specs_url=api.specs_url)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\__init__.py", line 9, in specs_url
+    return url_for(self.endpoint('specs'), _external=True, _scheme='http')
+NameError: name 'url_for' is not defined
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('app/index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('app/index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('app/index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 17, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 19, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 19, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 19, in vue_app
+    render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 20, in vue_app
+    return render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\wsgi.py", line 20, in vue_app
+    return render_template('index.html')
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+Exception on /api/token/get [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 28, in get
+    token, message = get_token(credentials)
+TypeError: cannot unpack non-iterable LOGIN_STATUSES object
+Exception on /api/token/get [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 28, in get
+    token, message = get_token(credentials)
+TypeError: cannot unpack non-iterable LOGIN_STATUSES object
+Exception on /api/token/get [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 28, in get
+    token, message = get_token(credentials)
+TypeError: cannot unpack non-iterable LOGIN_STATUSES object
+Exception on /api/timetable/get/1572171729342 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171731793 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171766110 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171774611 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171789810 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171826742 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171919011 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /api/timetable/get/1572171938093 [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\timetable.py", line 53, in get
+    timetable, status = get_timetable(token, timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 32, in get_timetable
+    date = WeekStart(timestamp)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_timetable.py", line 24, in __new__
+    d = datetime.fromtimestamp(timestamp)
+TypeError: an integer is required (got type str)
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: vue_app() got an unexpected keyword argument 'path'
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: vue_app() got an unexpected keyword argument 'path'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 584, in error_router
+    return original_handler(e)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: vue_app() got an unexpected keyword argument 'path'
+Exception on /api/token/get [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 31, in get
+    response.headers.add('Access-Control-Allow-Origin', '*')
+NameError: name 'response' is not defined
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+TypeError: explain() takes 0 positional arguments but 1 was given
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+TypeError: explain() takes 0 positional arguments but 1 was given
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+TypeError: explain() takes 0 positional arguments but 1 was given
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+TypeError: explain() takes 0 positional arguments but 1 was given
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_token.py", line 19, in explain
+    message['result'] = True
+NameError: name 'message' is not defined
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_token.py", line 19, in explain
+    message['result'] = True
+NameError: name 'message' is not defined
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_token.py", line 19, in explain
+    message['result'] = True
+NameError: name 'message' is not defined
+Exception on /api/token/check [GET]
+Traceback (most recent call last):
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\venv\lib\site-packages\flask_restplus\marshalling.py", line 243, in wrapper
+    resp = f(*args, **kwargs)
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\api\token.py", line 52, in get
+    message, code = message.explain()
+  File "c:\Users\maksy\OneDrive\Dokumenty\Web Design\LibrusOpusVue\OpusLibrus\app\tools\get_token.py", line 19, in explain
+    message['result'] = True
+NameError: name 'message' is not defined
