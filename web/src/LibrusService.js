@@ -1,6 +1,6 @@
 const axios = require("axios").default;
 
-axios.defaults.baseURL = "/api";
+axios.defaults.baseURL = "http://localhost:5000/api";
 
 export class LibrusService {
   getToken(username, password) {

@@ -62,6 +62,16 @@ export default {
   },
   mounted() {
     if (!localStorage.token) this.router.push("/login");
+    ls.checkToken(localStorage.token).then(r => {
+      if(!r.data.valid) this.router.push("/login");
+    }).catch(e => {
+      if(!e.response.data){
+        alert('Trouble connecting to server.');
+        this.router.push("/login");
+      }else{
+        if(!e.response.data.valid) this.router.push("/login");
+      }
+    });
     ls.getTimetable(localStorage.token)
       .then(r => {
         this.timetable = r.data.timetable;
@@ -75,10 +85,6 @@ export default {
             }
         }
         this.loading = false;
-      })
-      .catch(() => {
-        //alert(e.response.data.message);
-        //this.router.push("/login");
       });
   },
   created() {

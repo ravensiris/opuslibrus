@@ -8,6 +8,7 @@ Click==7.0
 Flask==1.1.1
 Flask-Cors==3.0.8
 flask-restplus==0.13.0
+flask-talisman==0.7.0
 gunicorn==19.9.0
 idna==2.8
 importlib-metadata==0.23

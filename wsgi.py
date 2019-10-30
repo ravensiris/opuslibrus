@@ -5,12 +5,15 @@ from sys import stdout
 from app.api import init_api
 from app.api.add_namespaces import add_namespaces
 from flask_cors import CORS
+from flask_talisman import Talisman
 
 app = Flask(__name__)
 
+Talisman(app)
+
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-api, api_bp = init_api('/api')
+api, api_bp = init_api('/api') 
 
 app.register_blueprint(api_bp)
 
