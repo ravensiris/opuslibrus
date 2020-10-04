@@ -1,0 +1,49 @@
+#+TITLE: Alternative client and API for Synergia Librus
+* Project status
+  Abandoned.
+
+  Working are: logging in, viewing the timetable, API docs(Swagger).
+
+* Screenshot
+  [[./screenshot.png]]
+
+* Tech used
+
+Flask(Plus plenty of extensions for it), Swagger, Vue.js
+
+* How to run
+
+Create a venv and install requirements.txt
+
+#+begin_src sh
+git clone https://github.com/ravensiris/opuslibrus
+
+cd opuslibrus
+
+# On Linux
+rm -rf venv
+
+python -m venv venv
+
+source venv/activate
+
+pip install -r requirements.txt
+#+end_src
+
+Then you will need to disable SSL as it wont run on a development server.
+
+Comment out:
+
+Talisman(app) in wsgi.py
+
+Then you can run it:
+
+#+begin_src sh
+python wsgi.py
+#+end_src
+
+* How to access the API?
+Just launch YOUR_HOST_HERE/api for the Swagger documentation.
+
+Here is one hosted on heroku https://opuslibrus.herokuapp.com/api/
+  
