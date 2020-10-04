@@ -1,5 +1,5 @@
 from app.modules.timetable import get_week_html, parse_timetable_html
-from datetime import datetime
+from datetime import datetime, timedelta
 from enum import Enum, auto
 
 class TIMETABLE_STATUSES(Enum):
@@ -25,16 +25,16 @@ class TIMETABLE_STATUSES(Enum):
 
 class WeekStart(datetime):
     def __new__(self, timestamp):
-        d = datetime.fromtimestamp(int(timestamp))
-        d = datetime(year=d.year, month=d.month, day=d.day - d.weekday())
+        if timestamp is None:
+            d = datetime.now()
+        else:
+            d = datetime.fromtimestamp(int(timestamp))
+        d = d - timedelta(days=d.weekday())
         return d
 
 def get_timetable(token, timestamp):
     try:
-        if timestamp is None:
-            date = WeekStart(datetime.now().timestamp())
-        else:
-            date = WeekStart(timestamp)
+       date = WeekStart(timestamp)
     except:
         return None, TIMETABLE_STATUSES.DATE_PARSE_FAIL
     

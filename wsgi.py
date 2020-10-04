@@ -9,7 +9,7 @@ from flask_talisman import Talisman
 
 app = Flask(__name__)
 
-Talisman(app)
+#Talisman(app)
 
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
